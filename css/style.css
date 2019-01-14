@@ -1,0 +1,513 @@
+body,html
+{
+    background: black !important;    
+}
+
+*
+{
+    font-family: 'Suranna', serif !important;
+}
+.outerdiv1
+{
+    border:2px solid grey;
+    height:350px;
+    position: relative;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.textbox
+{
+    position: absolute;
+    height:100%;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: height 0.3s; 
+    transition: height 0.3s;
+
+}
+
+.textfromleft
+{
+    position: absolute;
+    height:30%;
+    bottom: 0px;
+    width: 100%;
+    left:100%;
+    border:0px solid red;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: left 0.3s; 
+    transition: left 0.3s;
+    padding:10px;
+}
+
+.image1
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    -webkit-transition: all 3s; 
+    transition: all 3s;
+}
+
+
+.image3
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    -webkit-transition: all 3s; 
+    transition: all 3s;
+}
+
+.outerdiv1:hover .textbox
+{
+    height:30%;
+}
+
+.outerdiv1:hover .textfromleft
+{
+    left:0%;
+}
+
+
+
+.outerdiv1:hover .image1
+{
+    -ms-transform: scale(1.1) rotate(1.7deg); 
+    -webkit-transform: scale(1.1) rotate(1.7deg);
+    transform: scale(1.1) rotate(1.7deg);
+
+}
+
+.outerdiv2
+{
+    border:2px solid grey;
+    height:350px;
+    position: relative;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.textbox_upper
+{
+    position: absolute;
+    height:50%;
+    top: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: height 0.3s; 
+    transition: height 0.3s;
+}
+
+.textbox_lower
+{
+    position: absolute;
+    height:50%;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: height 0.3s; 
+    transition: height 0.3s;
+}
+
+.outerdiv2:hover .textbox_upper
+{
+    height:0px;
+}
+
+.outerdiv2:hover .textbox_lower
+{
+    height:0px;
+}
+
+
+.image2
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    -webkit-transition: all 3s; 
+    transition: all 3s;
+}
+
+.outerdiv2:hover .image2
+{
+   -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.t1
+{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+}
+
+.t4
+{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+
+.outerdiv3
+{
+    border:2px solid grey;
+    height:350px;
+    position: relative;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.textfromleft3
+{
+    position: absolute;
+    height:10%;
+    bottom: 10%;
+    width: 100%;
+    left:100%;
+    border:0px solid red;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: left 0.3s; 
+    transition: left 0.3s;
+    
+}
+
+.textfromright3
+{
+    position: absolute;
+    height:10%;
+    bottom: 0%;
+    width: 100%;
+    left:-100%;
+    border:0px solid red;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: left 0.3s; 
+    transition: left 0.3s;
+    
+}
+
+
+
+.outerdiv3:hover .textbox
+{
+    height:20%;
+}
+
+.outerdiv3:hover .textfromleft3
+{
+    left:0%;
+}
+
+.outerdiv3:hover .textfromright3
+{
+    left:0%;
+}
+
+.outerdiv3:hover .image3
+{
+    -ms-transform: scale(1.1) rotate(-1.7deg); 
+    -webkit-transform: scale(1.1) rotate(-1.7deg);
+    transform: scale(1.1) rotate(-1.7deg);
+    
+}
+
+
+.t2
+{
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+    text-transform:capitalize;
+    letter-spacing: 3px;
+}
+
+
+.outerdiv4
+{
+    border:2px solid grey;
+    height:350px;
+    position: relative;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+
+.textbox4
+{
+    position: absolute;
+    height:100%;
+    bottom: 0px;
+    width: 100%;
+    left:0%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: left 0.3s; 
+    transition: all 0.3s;
+
+}
+
+.border_from_left
+{
+    position: absolute;
+    height:20%;
+    width:100%;
+    bottom:0px;
+    left:100%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: left 0.3s; 
+    transition: all 0.3s;
+    z-index:99999;
+}
+
+.image4a
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0%;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+
+.image4b
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:100%;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+.outerdiv4:hover .textbox4
+{
+    left:-100%;
+}
+
+.outerdiv4:hover .image4a
+{
+    left:-100%;
+}
+
+
+.outerdiv4:hover .image4b
+{
+    left:0%;
+}
+
+.outerdiv4:hover .border_from_left
+{
+    left:0%;
+}
+
+.outerdiv5
+{
+    border:0px solid grey;
+    height:350px;
+    position: relative;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+
+.textoverlay
+{
+    position: absolute;
+    height:100%;
+    top: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;
+    font-size:20px;
+    font-weight: 600;
+    text-align: center;
+    color:WHITE;
+    padding-top: 40%;
+}
+
+
+.textboxb1
+{
+    position: absolute;
+    top:0px;
+    left:-100%;
+    width:100%;
+    height:4px;
+    background: #FF0000;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+.textboxb2
+{
+    position: absolute;
+    top:-100%;   
+    right:0px;
+    width:4px;
+    height:100%;
+    background: #FF0000;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+.textboxb3
+{
+    position: absolute;
+    bottom:0px;
+    left:100%;
+    width:100%;
+    height:4px;
+    background: #FF0000;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+
+.textboxb4
+{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:4px;
+    height:100%;
+    top:100%;
+    background: #FF0000;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+.outerdiv5:hover 
+{
+    box-shadow: 0px 0px 50px 0px red;
+}
+
+
+.outerdiv5:hover .textboxb1
+{
+    left:0%;
+}
+
+.outerdiv5:hover .textboxb2
+{
+    top:0%
+}
+
+.outerdiv5:hover .textboxb3
+{
+    left:0%
+}
+
+.outerdiv5:hover .textboxb4
+{
+    top:0%;
+}
+
+.outerdiv5:hover .textoverlay
+{
+    top:-100%;
+}
+
+.outerdiv6
+{
+    border:2px solid grey;
+    height:350px;
+    position: relative;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+
+.textbox_uppera
+{
+    position: absolute;
+    height:100%;
+    width:28%;
+    top: 0px;
+    left:0px;
+    background: rgba(0,0,0,1);
+    -webkit-transition: all  0.3s; 
+    transition: all 0.3s;
+}
+
+
+.textbox_uppera:after
+{
+    content:"";
+    position: absolute;
+    height:100%;
+    width:160%;
+    top: 0px;
+    background: rgba(0,0,0,1);
+    -webkit-transition: height 0.3s; 
+    transition: height 0.3s;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform:skew(-20deg);
+}
+
+.textbox_lowerb
+{
+    position: absolute;
+    height:100%;
+    bottom: 0px;
+    width: 28%;
+    right:0px;
+    background: rgba(0,0,0,1);
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;
+}
+
+
+.textbox_lowerb:before
+{
+    content:"";
+    position: absolute;
+    height:100%;
+    width:160%;
+    top: 0px;
+    left:-100%;
+    background: rgba(0,0,0,1);
+    -webkit-transition: height 0.3s; 
+    transition: height 0.3s;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform:skew(-20deg);
+}
+
+.image6
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    -webkit-transition: all 3s; 
+    transition: all 3s;
+}
+
+.outerdiv6:hover .textbox_uppera
+{
+    left:-100%;
+}
+
+
+.outerdiv6:hover .textbox_lowerb
+{
+   right:-100%;
+}
+
+.outerdiv6:hover .image6
+{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
